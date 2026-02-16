@@ -1,6 +1,6 @@
 {
   "name": "@forgemcp/keepa",
-  "version": "0.2.0",
+  "version": "0.0.1",
   "description": "Fetch Amazon product history (Price, Sales Rank) via Keepa API. Use for checking current prices, trends, and analyzing ASIN data.",
   "main": "src/index.ts",
   "bin": {
