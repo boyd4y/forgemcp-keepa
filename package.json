@@ -20,6 +20,9 @@
   ],
   "author": "ForgeMCP",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "commander": "^13.0.0",
     "zod": "^3.24.1"
