@@ -1,0 +1,30 @@
+{
+  "name": "@forgemcp/keepa",
+  "version": "0.2.0",
+  "description": "Fetch Amazon product history (Price, Sales Rank) via Keepa API. Use for checking current prices, trends, and analyzing ASIN data.",
+  "main": "src/index.ts",
+  "bin": {
+    "keepa": "cli.ts"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "start": "bun run cli.ts"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "keepa",
+    "amazon",
+    "analytics"
+  ],
+  "author": "ForgeMCP",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^13.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
